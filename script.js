@@ -17,7 +17,7 @@ function startGame() {
     parent.removeChild(parent.firstChild);
   }
 
-  var n = Math.floor(Math.random() * (25 - 15 + 1)) + 15;
+  var n = Math.floor(Math.random() * (125 - 15 + 1)) + 15;
   maxLength = n;
   for (var i = 0; i < n; i += 1) {
     cloneButton("b" + i.toString(), i);
